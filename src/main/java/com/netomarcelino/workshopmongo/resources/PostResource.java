@@ -11,7 +11,7 @@ import com.netomarcelino.workshopmongo.domain.Post;
 import com.netomarcelino.workshopmongo.services.PostService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/posts")
 public class PostResource {
 
 	@Autowired
